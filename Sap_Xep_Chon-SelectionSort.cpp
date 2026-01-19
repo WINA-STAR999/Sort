@@ -1,9 +1,7 @@
 
 #include <stdio.h>
 
-void SelectionSort(int a[], int n){
-	for(int i = 0; i < (n - 1); i++){
-		int min_pos = i; //Ban dau coi i la phan tu nho nhat
+
 		for(int j = i + 1; j < n; j++){
 			if (a[j] < a[min_pos]){
 				min_pos = j;
