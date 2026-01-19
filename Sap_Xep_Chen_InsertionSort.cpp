@@ -3,8 +3,7 @@
 
 void InsertionSort(int a[], int n){
 	for (int i = 1; i < n; i++){
-		int pos = i - 1, value = a[i];
-		while (pos >= 0 && value < a[pos]){
+		int pos = i - 1, value = git a[i];
 			a[pos + 1] = a[pos];
 			--pos; 
 		}
